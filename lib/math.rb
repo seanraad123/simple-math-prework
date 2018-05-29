@@ -18,8 +18,8 @@ def modulo(num1, num2)
   return num1 % num2
 end
 
-def square_root(num1, num2)
-  return num1 ** num2
+def square_root(num1)
+  Math.sqrt(num1)
 end
 
 def order_of_operation(num1, num2, num3, num4)
